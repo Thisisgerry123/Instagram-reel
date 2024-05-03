@@ -1,0 +1,72 @@
+body {
+    background-color: #c4c2c2;
+    font-family: , sans-serif;
+}
+header{
+  font-family: "Source Sans 3", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 50px;
+  font-style: normal;
+  text-align:center ;
+  background-color: white ;
+
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-content: center
+    ;
+}
+
+.image-container {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 600px;
+    height: 400px;
+     
+}
+
+.index {
+    font-family: "Source Sans 3", sans-serif;
+    font-family: "Roboto", sans-serif;
+    display:inline;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 375px;
+    ; 
+    
+}
+
+.title {
+    font-family: "Source Sans 3", sans-serif;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    padding: 8px 12px;
+    ;
+}
+
+.description {
+    font-family: "Source Sans 3", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    color: #000000;
+    padding: 12px 12px;
+    border-top: 1px solid #dbdbdb;
+}
